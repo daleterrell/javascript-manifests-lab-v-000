@@ -14,3 +14,14 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require wrong_place_wrong_time
+
+<%= javascript_include_tag "application" %>
+<%= javascript_include_tag "alert_maker" %>
+<%= javascript_include_tag "main" %>
+<%= javascript_include_tag "hello_world" %>
+<%= javascript_include_tag "does_nothing" %>
+
+//= require alert_maker
+
+//+ alert_maker.js
+//+ main.js
