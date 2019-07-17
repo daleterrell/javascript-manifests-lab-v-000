@@ -1,4 +1,6 @@
 require "rails_helper"
+//= require hello_world
+
 
 RSpec.describe do
   it "should not require the main file in the admin manifest" do

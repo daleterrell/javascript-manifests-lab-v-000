@@ -1,4 +1,5 @@
 require "rails_helper"
+//= require main
 
 RSpec.describe do
   it "should require the alert maker file in the application manifest" do
